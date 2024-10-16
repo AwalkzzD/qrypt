@@ -39,33 +39,21 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  
-  
-  
-  
+  assets:
+    - assets/
+    - assets/images/
+    - assets/translations/
+    - assets/icons/
 
-  
-  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins_Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins_Medium.ttf
+          weight: 500
 
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue_Regular.ttf
+          weight: 400

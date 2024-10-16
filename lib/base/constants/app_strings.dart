@@ -1,0 +1,1 @@
+const dummyAvtarImage='https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671142.jpg?w=826&t=st=1711018169~exp=1711018769~hmac=a74a6888542789f2dd8b13e6ec6e63edbcf0b24b0674fee6dff9ccafaaccedef';
