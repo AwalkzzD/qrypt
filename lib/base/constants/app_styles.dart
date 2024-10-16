@@ -26,10 +26,12 @@ double fLarge5 = 32.sp;
 double fLarge6 = 34.sp;
 double fLarge7 = 36.sp;
 double fLarge8 = 38.sp;
+double fs38 = 38.sp;
 double fs64 = 64.sp;
 
 /// Custom Text Styles
 // do same for other text styles
+TextStyle fs38BNRegular = TextStyle(fontSize: fs38, color: themeOf().textPrimaryColor, fontFamily: fontFamilyBebasNeue);
 TextStyle fs64BNRegular = TextStyle(fontSize: fs64, color: themeOf().textPrimaryColor, fontFamily: fontFamilyBebasNeue);
 
 /// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------

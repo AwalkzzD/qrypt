@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 
 import '../../base/constants/app_colors.dart';
 import '../../base/constants/app_images.dart';
+import '../../base/constants/app_styles.dart';
 import '../../base/constants/app_widgets.dart';
 import '../../base/src_bloc.dart';
 import '../../base/theme/app_theme.dart';
@@ -45,12 +46,14 @@ class _SplashScreenState extends BasePageState<SplashScreen, SplashScreenBloc> {
     return Container(
       color: primaryColor,
       alignment: Alignment.center,
-      child: const ImageView(
-        height: 140,
-        width: 140,
-        image: AppImages.splashLogo,
-        imageType: ImageType.asset,
-      ),
+      /// uncomment logo once ready, for now keep text as splash logo
+      child: Text('QRYPT', style: fs38BNRegular),
+      // child: const ImageView(
+      //   height: 140,
+      //   width: 140,
+      //   image: AppImages.splashLogo,
+      //   imageType: ImageType.asset,
+      // ),
     );
   }
 

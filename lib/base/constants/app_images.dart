@@ -23,5 +23,6 @@ class AppImages {
 
   /// Profile
   static const String icLogout = 'assets/icons/ic_logout.svg';
+  static const String icLanguage = 'assets/icons/ic_language.svg';
 
 }

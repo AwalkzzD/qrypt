@@ -6,8 +6,8 @@ import 'package:qrypt/base/theme/app_theme.dart';
 Gradient getIconBgGradient(){
   return LinearGradient(
     colors: [
-      themeOf().lightMode() ? const Color(0x2e7f1417) : const Color(0x42695c5c) ,
-      themeOf().lightMode() ? const Color(0x1fbc212c) : const Color(0x42695c5c)
+      themeOf().isLightMode ? const Color(0x2e7f1417) : const Color(0x42695c5c) ,
+      themeOf().isLightMode ? const Color(0x1fbc212c) : const Color(0x42695c5c)
     ],
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
